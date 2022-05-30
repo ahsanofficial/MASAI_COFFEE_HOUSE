@@ -1,0 +1,17 @@
+#bucket{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px 170px;
+    grid-template-rows: auto;
+    justify-content: space-around;
+}
+#bucket>div{
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+}
+#bucket img{
+    height: 150px;
+    width: 100%;
+}
